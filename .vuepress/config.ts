@@ -9,6 +9,7 @@ const domain = "https://wanghaohong1.github.io";
 const tags = ["学习笔记", "项目实战", "编程路线"];
 
 export default defineConfig({
+  base: "/msw/",
   title: "迷死王的学习笔记",
   description: "记录学习路线与项目实战的个人技术博客",
   head: [
